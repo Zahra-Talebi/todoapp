@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 50px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cs-flex-space {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen  and (min-width: 769px) {
+  .cs-action-btn {
+    visibility: hidden;
+  }
+}
+
+.cs-btn-holder:hover .cs-action-btn {
+  visibility: visible;
+}
+
+.cs-list-wrapper {
+  background-color: #ebecf0;
+  padding: 16px;
+  max-width: 400px;
+}
+
+.cs-card-list {
+  margin: 8px auto;
+}
+
+.cs-card-list:hover {
+  background: #fafbfc;
+}
+
+.cs-card-list:first-child {
+  margin-top: 0;
+}
+
+.cs-card-list:last-child {
+  margin-bottom: 0;
+}
+
+.cs-completed,
+.cs-completed:hover {
+  background-color: #f2f2f2;
+  color: #00000068;
+  text-decoration: line-through;
+}
+
+/* .draggble {
+  cursor: ns-resize;
+} */
+
+.cs-link{
+  cursor: pointer;
+}
+
+.cs-text-mute {
+  color: #00000068;
+}
+
+.cs-icon-lg {
+  font-size: 38px;
+  margin: 16px;
+}
+
+.cs-text-center {
+  text-align: center;
+}
+
+.cs-mr-sm {
+  margin-right: 8px;
+}
+
+.cs-transparent-input {
+  background-color: transparent;
+  border: none;
+  margin: 16px auto;
+  padding: 8px;
+}
+
+.cs-transparent-input:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.cs-transparent-input:focus {
+  background-color: #fafbfc;
+  border: none;
+  box-shadow: none;
+  cursor: text;
+}
